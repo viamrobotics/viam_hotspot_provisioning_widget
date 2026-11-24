@@ -44,6 +44,8 @@ Before using this widget, you must flash your device with the Viam defaults conf
 
 ### iOS
 
+The plugin supports both Swift Package Manager and CocoaPods; Flutter picks whichever your app uses.
+
 Add the following to your `Entitlements`:
 
 ```xml
@@ -257,7 +259,6 @@ Contains the result of the provisioning attempt:
 
 ### Dependencies
 This package depends on:
-- `plugin_wifi_connect`: For Wi-Fi connection functionality
 - `viam_sdk`: For Viam robot communication
 - `permission_handler`: For platform permissions
 - `flutter_platform_widgets`: For platform-specific UI
