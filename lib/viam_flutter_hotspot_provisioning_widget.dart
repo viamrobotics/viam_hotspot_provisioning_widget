@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:plugin_wifi_connect/plugin_wifi_connect.dart';
+import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:viam_sdk/protos/app/app.dart';
 import 'package:viam_sdk/viam_sdk.dart';

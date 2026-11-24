@@ -1,3 +1,8 @@
+## 0.0.35
+- Replace the `plugin_wifi_connect` dependency with native Wi-Fi code in this package (Swift on iOS, Kotlin on Android)
+- Add Swift Package Manager support on iOS (CocoaPods is still supported)
+- No API changes
+
 ## 0.0.34
 - Add 'hide APIKey' to protos export
 

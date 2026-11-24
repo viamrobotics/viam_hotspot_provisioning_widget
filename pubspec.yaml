@@ -1,6 +1,6 @@
 name: viam_flutter_hotspot_provisioning_widget
 description: "A Viam Flutter Hotspot Provisioning Widget."
-version: 0.0.34
+version: 0.0.35
 repository: https://github.com/viamrobotics/viam_flutter_hotspot_provisioning_widget
 homepage: https://www.viam.com/
 
@@ -11,7 +11,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  plugin_wifi_connect: ^2.0.1
   viam_sdk: ">=0.18.0 <1.0.0"
   permission_handler: ">=12.0.1 <14.0.0"
   flutter_platform_widgets: ">=7.0.1 <11.0.0"
@@ -32,6 +31,13 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.viam.viam_flutter_hotspot_provisioning_widget
+        pluginClass: ViamFlutterHotspotProvisioningWidgetPlugin
+      ios:
+        pluginClass: ViamFlutterHotspotProvisioningWidgetPlugin
 
   # To add assets to your package, add an assets section, like this:
   # assets:
